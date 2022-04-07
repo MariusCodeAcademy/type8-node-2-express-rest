@@ -1,0 +1,20 @@
+{
+  "name": "node-2-express-rest",
+  "version": "0.0.1",
+  "description": "1. git init\r 1. npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariusCodeAcademy/type8-node-2-express-rest.git"
+  },
+  "keywords": [],
+  "author": "Marius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariusCodeAcademy/type8-node-2-express-rest/issues"
+  },
+  "homepage": "https://github.com/MariusCodeAcademy/type8-node-2-express-rest#readme"
+}
