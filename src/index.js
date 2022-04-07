@@ -37,6 +37,9 @@ app.get('/api/colors', (request, response) => {
     response.status(400).json(ats);
   }
 });
+app.get('/api/colors/1', (request, response) => {
+  response.json(colors[0]);
+});
 
 // 404 case
 app.all('*', (request, response) => {
