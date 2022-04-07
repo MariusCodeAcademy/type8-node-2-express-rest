@@ -38,5 +38,15 @@ app.get('/api/colors', (request, response) => {
   }
 });
 
+// 404 case
+app.all('*', (request, response) => {
+  console.log(request.originalUrl);
+  const urlPage = request.originalUrl.slice(1);
+  response.status(404).json({
+    success: false,
+    error: `You have tried to see page ${urlPage}. This page is not found`,
+  });
+});
+
 // paleidziam aplikacija, klausomes requestu
 app.listen(PORT, () => console.log('Express is running on port', PORT));
