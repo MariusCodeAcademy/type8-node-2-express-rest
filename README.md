@@ -8,6 +8,12 @@
 4. create express app
 5. add script "start": "node src/index.js"
 
+## cors
+
+1. npm install cors
+2. import cors
+3. app.use(cors())
+
 ## Terms
 
 1. REST - restful state transfer. Standartas kaip aplikacijos bendrauja tarpusavyje.
