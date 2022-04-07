@@ -12,3 +12,4 @@
 9. sukuriam endpointa GET /api/towns kuris grazina random miesta is npm casual(naudotas pries tai pratime)
 10. sukuriam front end html ir js ir mygtuko paspaudimu gaunam duomenis is
     visu sukurtu endpointu. vienas endpontas vienas mygtukas. atvaizduoti html
+11. sukurti scripto komanda package.json kad paleisti serveri su 'npm start'
